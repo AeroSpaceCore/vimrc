@@ -70,8 +70,8 @@ filetype plugin indent on    " required
 syn on
 set nu
 " color slate
-" colorscheme SpacegrayEighties
-colorscheme molokai
+colorscheme SpacegrayEighties
+"colorscheme molokai
 
 " backspace功能
 set backspace=indent,eol,start
@@ -114,6 +114,7 @@ nmap gd :GoDef<CR>
 nmap gr :GoReferrers<CR>
 nmap gc :GoDoc<CR>
 nmap gb :GoBuild<CR>
+nmap gn :GoRename<CR>
 " filetype plugin on
 let mapleader=","
 
@@ -127,4 +128,3 @@ let g:go_highlight_functions = 1
 let g:go_highlight_methods = 1
 let g:go_highlight_structs = 1
 let g:go_highlight_extra_types = 1
-
