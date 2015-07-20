@@ -115,6 +115,7 @@ nmap gr :GoReferrers<CR>
 nmap gc :GoDoc<CR>
 nmap gb :GoBuild<CR>
 nmap gn :GoRename<CR>
+nmap gi :GoInfo<CR>
 " filetype plugin on
 let mapleader=","
 
