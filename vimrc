@@ -116,6 +116,7 @@ nmap gc :GoDoc<CR>
 nmap gb :GoBuild<CR>
 nmap gn :GoRename<CR>
 nmap gi :GoInfo<CR>
+" au FileType go nmap <Leader>i <Plug>(go-info)
 " filetype plugin on
 let mapleader=","
 
@@ -129,3 +130,5 @@ let g:go_highlight_functions = 1
 let g:go_highlight_methods = 1
 let g:go_highlight_structs = 1
 let g:go_highlight_extra_types = 1
+
+set incsearch
